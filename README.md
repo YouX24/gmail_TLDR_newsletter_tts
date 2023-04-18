@@ -19,11 +19,12 @@ The program will get the TLDR Newsletter that was sent today, parse the content 
 5. Grant user access to project - use your email (https://cloud.google.com/iam/docs/granting-changing-revoking-access)
 6. Replace the variable "tldrEmail" to the actual TLDR Newsletter Email in file parseEmail.py
 7. Assign "message['to']" and "message['from']" to the email you want the audio file to be sent to, in file sendAudio.py
-8. Open a terminal and navigate to project directory
-9. run "python parseEmail.py"
-10. log in with your gmail
-11. click "continue" to gain access to the app
-12. Check/enable "View your email messages and settings.", "Send email on your behalf.", and "Manage drafts and send emails.", then click "continue" to complete authentication. This will generate the file "token.json" in your project directory.
-13. run "python parseEmail.py"
-14. run "python textSynthesize.py"
-15. run "python sendAudio.py"
+8. install libraries needed
+9. Open a terminal and navigate to project directory
+10. run "python parseEmail.py"
+11. log in with your gmail
+12. click "continue" to gain access to the app
+13. Check/enable "View your email messages and settings.", "Send email on your behalf.", and "Manage drafts and send emails.", then click "continue" to complete authentication. This will generate the file "token.json" in your project directory.
+14. run "python parseEmail.py"
+15. run "python textSynthesize.py"
+16. run "python sendAudio.py"
